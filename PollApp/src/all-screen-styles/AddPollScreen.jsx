@@ -5,29 +5,22 @@ export const addPollStyles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'white',
   },
-  header: {
-    width: '100%',
-    height: 60,
-    backgroundColor: 'purple',
-    justifyContent: 'center',
-    paddingLeft: 20,
+  cationArea: {
+    width: '90%',
+    height: 100,
+    borderWidth: 1,
+    borderRadius: 10,
+    borderColor: '#9e9e9e',
+    alignSelf: 'center',
+    marginTop: 20,
+    paddingLeft: 10,
   },
-  logo: {
-    color: 'white',
-    fontSize: 18,
-    fontWeight: '700',
-  },
-  addBtn: {
-    backgroundColor: 'purple',
-    borderRadius: 30,
-    position: 'absolute',
-    bottom: 50,
-    right: 20,
-    padding: 20,
-  },
-  addBtnText: {
-    fontSize: 16,
-    fontWeight: "600",
-    color: 'white',
+  addOptionBtn: {
+    padding: 10,
+    borderWidth: 1,
+    width: 100,
+    marginLeft: 20,
+    marginTop: 20,
+    color: 'black'
   },
 });
